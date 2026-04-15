@@ -1,0 +1,101 @@
+sample_id,patient_id,date,test_type,parameter,result,unit,reference_min,reference_max,qc_status,technician,observations
+S001,P001,2024-01-03,Hematology,Hemoglobin,13.2,g/dL,12.0,16.0,PASS,BCM,
+S002,P002,2024-01-03,Hematology,Hemoglobin,7.1,g/dL,12.0,16.0,FAIL,BCM,Critical low value
+S003,P003,2024-01-03,Biochemistry,Glucose,95,mg/dL,70,100,PASS,BCM,
+S004,P004,2024-01-04,Biochemistry,Glucose,310,mg/dL,70,100,FAIL,BCM,Critical high value
+S005,P005,2024-01-04,Hematology,Leukocytes,6.5,10^3/uL,4.0,10.0,PASS,BCM,
+S006,P006,2024-01-04,Hematology,Leukocytes,0.9,10^3/uL,4.0,10.0,FAIL,BCM,Critical low value
+S007,P007,2024-01-05,Biochemistry,Creatinine,0.9,mg/dL,0.6,1.2,PASS,BCM,
+S008,P008,2024-01-05,Biochemistry,Creatinine,4.8,mg/dL,0.6,1.2,FAIL,BCM,Possible renal failure
+S009,P009,2024-01-05,Hematology,Platelets,220,10^3/uL,150,400,PASS,BCM,
+S010,P010,2024-01-06,Hematology,Platelets,18,10^3/uL,150,400,FAIL,BCM,Critical low value
+S011,P011,2024-01-06,Biochemistry,Sodium,138,mEq/L,136,145,PASS,BCM,
+S012,P012,2024-01-06,Biochemistry,Sodium,158,mEq/L,136,145,FAIL,BCM,Hypernatremia
+S013,P013,2024-01-07,Hematology,Hemoglobin,15.1,g/dL,12.0,16.0,PASS,BCM,
+S014,P014,2024-01-07,Biochemistry,Glucose,88,mg/dL,70,100,PASS,BCM,
+S015,P015,2024-01-07,Hematology,Leukocytes,18.5,10^3/uL,4.0,10.0,FAIL,BCM,Possible infection
+S016,P016,2024-01-08,Biochemistry,Creatinine,1.1,mg/dL,0.6,1.2,PASS,BCM,
+S017,P017,2024-01-08,Hematology,Platelets,310,10^3/uL,150,400,PASS,BCM,
+S018,P018,2024-01-08,Biochemistry,Sodium,141,mEq/L,136,145,PASS,BCM,
+S019,P019,2024-01-09,Hematology,Hemoglobin,9.4,g/dL,12.0,16.0,FAIL,BCM,Anemia
+S020,P020,2024-01-09,Biochemistry,Glucose,52,mg/dL,70,100,FAIL,BCM,Hypoglycemia
+S021,P021,2024-01-09,Hematology,Leukocytes,7.2,10^3/uL,4.0,10.0,PASS,BCM,
+S022,P022,2024-01-10,Biochemistry,Creatinine,0.8,mg/dL,0.6,1.2,PASS,BCM,
+S023,P023,2024-01-10,Hematology,Platelets,175,10^3/uL,150,400,PASS,BCM,
+S024,P024,2024-01-10,Biochemistry,Sodium,129,mEq/L,136,145,FAIL,BCM,Hyponatremia
+S025,P025,2024-01-11,Hematology,Hemoglobin,14.3,g/dL,12.0,16.0,PASS,BCM,
+S026,P026,2024-01-11,Biochemistry,Glucose,76,mg/dL,70,100,PASS,BCM,
+S027,P027,2024-01-11,Hematology,Leukocytes,5.8,10^3/uL,4.0,10.0,PASS,BCM,
+S028,P028,2024-01-12,Biochemistry,Creatinine,2.9,mg/dL,0.6,1.2,FAIL,BCM,Elevated creatinine
+S029,P029,2024-01-12,Hematology,Platelets,88,10^3/uL,150,400,FAIL,BCM,Thrombocytopenia
+S030,P030,2024-01-12,Biochemistry,Sodium,143,mEq/L,136,145,PASS,BCM,
+S031,P031,2024-01-13,Hematology,Hemoglobin,11.8,g/dL,12.0,16.0,FAIL,BCM,Mild anemia
+S032,P032,2024-01-13,Biochemistry,Glucose,101,mg/dL,70,100,FAIL,BCM,Borderline high
+S033,P033,2024-01-13,Hematology,Leukocytes,4.5,10^3/uL,4.0,10.0,PASS,BCM,
+S034,P034,2024-01-14,Biochemistry,Creatinine,0.7,mg/dL,0.6,1.2,PASS,BCM,
+S035,P035,2024-01-14,Hematology,Platelets,260,10^3/uL,150,400,PASS,BCM,
+S036,P036,2024-01-14,Biochemistry,Sodium,137,mEq/L,136,145,PASS,BCM,
+S037,P037,2024-01-15,Hematology,Hemoglobin,16.9,g/dL,12.0,16.0,FAIL,BCM,Above reference range
+S038,P038,2024-01-15,Biochemistry,Glucose,245,mg/dL,70,100,FAIL,BCM,Hyperglycemia
+S039,P039,2024-01-15,Hematology,Leukocytes,9.1,10^3/uL,4.0,10.0,PASS,BCM,
+S040,P040,2024-01-16,Biochemistry,Creatinine,1.0,mg/dL,0.6,1.2,PASS,BCM,
+S041,P041,2024-01-16,Hematology,Platelets,400,10^3/uL,150,400,PASS,BCM,
+S042,P042,2024-01-16,Biochemistry,Sodium,144,mEq/L,136,145,PASS,BCM,
+S043,P043,2024-01-17,Hematology,Hemoglobin,12.5,g/dL,12.0,16.0,PASS,BCM,
+S044,P044,2024-01-17,Biochemistry,Glucose,68,mg/dL,70,100,FAIL,BCM,Low glucose
+S045,P045,2024-01-17,Hematology,Leukocytes,11.2,10^3/uL,4.0,10.0,FAIL,BCM,Leukocytosis
+S046,P046,2024-01-18,Biochemistry,Creatinine,1.2,mg/dL,0.6,1.2,PASS,BCM,
+S047,P047,2024-01-18,Hematology,Platelets,195,10^3/uL,150,400,PASS,BCM,
+S048,P048,2024-01-18,Biochemistry,Sodium,140,mEq/L,136,145,PASS,BCM,
+S049,P049,2024-01-19,Hematology,Hemoglobin,8.2,g/dL,12.0,16.0,FAIL,BCM,Moderate anemia
+S050,P050,2024-01-19,Biochemistry,Glucose,83,mg/dL,70,100,PASS,BCM,
+S051,P051,2024-01-19,Hematology,Leukocytes,6.0,10^3/uL,4.0,10.0,PASS,BCM,
+S052,P052,2024-01-20,Biochemistry,Creatinine,3.5,mg/dL,0.6,1.2,FAIL,BCM,Renal impairment
+S053,P053,2024-01-20,Hematology,Platelets,142,10^3/uL,150,400,FAIL,BCM,Mild thrombocytopenia
+S054,P054,2024-01-20,Biochemistry,Sodium,135,mEq/L,136,145,FAIL,BCM,Borderline low
+S055,P055,2024-01-21,Hematology,Hemoglobin,13.8,g/dL,12.0,16.0,PASS,BCM,
+S056,P056,2024-01-21,Biochemistry,Glucose,92,mg/dL,70,100,PASS,BCM,
+S057,P057,2024-01-21,Hematology,Leukocytes,8.3,10^3/uL,4.0,10.0,PASS,BCM,
+S058,P058,2024-01-22,Biochemistry,Creatinine,0.9,mg/dL,0.6,1.2,PASS,BCM,
+S059,P059,2024-01-22,Hematology,Platelets,330,10^3/uL,150,400,PASS,BCM,
+S060,P060,2024-01-22,Biochemistry,Sodium,139,mEq/L,136,145,PASS,BCM,
+S061,P061,2024-01-23,Hematology,Hemoglobin,10.1,g/dL,12.0,16.0,FAIL,BCM,Anemia
+S062,P062,2024-01-23,Biochemistry,Glucose,187,mg/dL,70,100,FAIL,BCM,Hyperglycemia
+S063,P063,2024-01-23,Hematology,Leukocytes,3.8,10^3/uL,4.0,10.0,FAIL,BCM,Leukopenia
+S064,P064,2024-01-24,Biochemistry,Creatinine,1.1,mg/dL,0.6,1.2,PASS,BCM,
+S065,P065,2024-01-24,Hematology,Platelets,280,10^3/uL,150,400,PASS,BCM,
+S066,P066,2024-01-24,Biochemistry,Sodium,142,mEq/L,136,145,PASS,BCM,
+S067,P067,2024-01-25,Hematology,Hemoglobin,15.5,g/dL,12.0,16.0,PASS,BCM,
+S068,P068,2024-01-25,Biochemistry,Glucose,74,mg/dL,70,100,PASS,BCM,
+S069,P069,2024-01-25,Hematology,Leukocytes,5.5,10^3/uL,4.0,10.0,PASS,BCM,
+S070,P070,2024-01-26,Biochemistry,Creatinine,0.8,mg/dL,0.6,1.2,PASS,BCM,
+S071,P071,2024-01-26,Hematology,Platelets,165,10^3/uL,150,400,PASS,BCM,
+S072,P072,2024-01-26,Biochemistry,Sodium,136,mEq/L,136,145,PASS,BCM,
+S073,P073,2024-01-27,Hematology,Hemoglobin,6.8,g/dL,12.0,16.0,FAIL,BCM,Severe anemia
+S074,P074,2024-01-27,Biochemistry,Glucose,420,mg/dL,70,100,FAIL,BCM,Critical hyperglycemia
+S075,P075,2024-01-27,Hematology,Leukocytes,7.9,10^3/uL,4.0,10.0,PASS,BCM,
+S076,P076,2024-01-28,Biochemistry,Creatinine,1.0,mg/dL,0.6,1.2,PASS,BCM,
+S077,P077,2024-01-28,Hematology,Platelets,390,10^3/uL,150,400,PASS,BCM,
+S078,P078,2024-01-28,Biochemistry,Sodium,148,mEq/L,136,145,FAIL,BCM,Hypernatremia
+S079,P079,2024-01-29,Hematology,Hemoglobin,14.0,g/dL,12.0,16.0,PASS,BCM,
+S080,P080,2024-01-29,Biochemistry,Glucose,97,mg/dL,70,100,PASS,BCM,
+S081,P081,2024-01-29,Hematology,Leukocytes,4.2,10^3/uL,4.0,10.0,PASS,BCM,
+S082,P082,2024-01-30,Biochemistry,Creatinine,2.1,mg/dL,0.6,1.2,FAIL,BCM,Elevated creatinine
+S083,P083,2024-01-30,Hematology,Platelets,55,10^3/uL,150,400,FAIL,BCM,Severe thrombocytopenia
+S084,P084,2024-01-30,Biochemistry,Sodium,133,mEq/L,136,145,FAIL,BCM,Hyponatremia
+S085,P085,2024-01-31,Hematology,Hemoglobin,12.9,g/dL,12.0,16.0,PASS,BCM,
+S086,P086,2024-01-31,Biochemistry,Glucose,79,mg/dL,70,100,PASS,BCM,
+S087,P087,2024-01-31,Hematology,Leukocytes,6.7,10^3/uL,4.0,10.0,PASS,BCM,
+S088,P088,2024-02-01,Biochemistry,Creatinine,0.7,mg/dL,0.6,1.2,PASS,BCM,
+S089,P089,2024-02-01,Hematology,Platelets,210,10^3/uL,150,400,PASS,BCM,
+S090,P090,2024-02-01,Biochemistry,Sodium,145,mEq/L,136,145,PASS,BCM,
+S091,P091,2024-02-02,Hematology,Hemoglobin,11.2,g/dL,12.0,16.0,FAIL,BCM,Mild anemia
+S092,P092,2024-02-02,Biochemistry,Glucose,112,mg/dL,70,100,FAIL,BCM,Hyperglycemia
+S093,P093,2024-02-02,Hematology,Leukocytes,9.8,10^3/uL,4.0,10.0,PASS,BCM,
+S094,P094,2024-02-03,Biochemistry,Creatinine,1.2,mg/dL,0.6,1.2,PASS,BCM,
+S095,P095,2024-02-03,Hematology,Platelets,245,10^3/uL,150,400,PASS,BCM,
+S096,P096,2024-02-03,Biochemistry,Sodium,138,mEq/L,136,145,PASS,BCM,
+S097,P097,2024-02-04,Hematology,Hemoglobin,13.5,g/dL,12.0,16.0,PASS,BCM,
+S098,P098,2024-02-04,Biochemistry,Glucose,88,mg/dL,70,100,PASS,BCM,
+S099,P099,2024-02-04,Hematology,Leukocytes,5.1,10^3/uL,4.0,10.0,PASS,BCM,
+S100,P100,2024-02-05,Biochemistry,Creatinine,0.9,mg/dL,0.6,1.2,PASS,BCM,
